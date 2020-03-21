@@ -55,7 +55,7 @@ class KlienciController {
 
         def update(){
         def clientId = params.id
-      //  def clientIdToUpdate = Klient.get(clientId)
+      def clientIdToUpdate = Klient.get(clientId)
         def imien = params.imie
         println "imie"+ imien
       //  def clientName = Klient.get(imien)
